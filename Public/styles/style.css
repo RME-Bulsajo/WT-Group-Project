@@ -1,0 +1,46 @@
+body {
+            background-color: aquamarine;
+        }
+        .heading1 {
+            align-items: center;
+            text-align: center;
+            background-color: rgb(223, 68, 202);
+        }
+        .para {
+            text-align: center;
+            align-items: center;
+            color: brown;
+            font-weight: bold;
+        }
+        .container {
+            border:  2px solid black;
+            padding: 10px;
+            margin: 20px;
+            
+
+        }
+        .ulist {
+            list-style-type: disc;
+            padding-left: 30%;
+        }
+        .olist {
+            list-style-type:upper-roman;
+            padding-left: 30%;
+        }
+        a {
+            text-decoration: none;
+
+        }
+        a:link {
+            color : rgb(57, 5, 57);
+            
+        }
+        a:hover {
+            color:  red;
+        }
+        a:visited {
+            color: rgb(57, 5, 57);
+        }
+        .imp {
+            color: red;
+        }
