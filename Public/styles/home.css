@@ -46,8 +46,21 @@ a:hover{
 
 
 }
+.container {
+    border: 5px solid blue;
+}
+p.heading {
+    font-size: xx-large;
+    text-align: center;
+        
+    
+}
 
-
+.image-slideshow {
+    border: 5px solid blue;
+    margin: 30px;
+    padding: 10px;
+}
 .footer {
     background-color: darkslateblue;
     border: 1px solid black;
