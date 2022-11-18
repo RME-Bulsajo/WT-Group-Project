@@ -51,9 +51,11 @@ a:hover{
 }
 p.heading {
     font-size: xx-large;
-    text-align: center;
-        
-    
+    text-align: center;    
+}
+
+.vidoe-container {
+    margin: auto;
 }
 
 .image-slideshow {
