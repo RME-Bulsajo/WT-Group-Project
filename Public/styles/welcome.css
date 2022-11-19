@@ -1,0 +1,27 @@
+* {
+    background-color: black;
+    color : violet;
+}
+
+.animet-container {
+    border: 5px solid yellowgreen;
+    border-style: double;
+    display: flex ;
+    justify-content: center;
+    margin: 20%;
+    padding: 10%;
+}
+
+.animet-container #line1{
+    text-decoration: dotted;
+    color: aqua;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.animet-container #line2{
+    color: chartreuse;
+    align-items: center;
+    padding: 10%;
+}
