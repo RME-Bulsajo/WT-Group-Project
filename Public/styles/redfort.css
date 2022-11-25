@@ -1,0 +1,53 @@
+/* This Is A CSS File */
+#des
+{
+	color: crimson;
+	font-size: 0.7em;
+}
+span
+{
+	color: crimson;
+}
+h1
+{
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2
+{
+	font-style: bold;
+}
+
+body
+{
+	font-size:1.6em;
+	line-height:1.4;
+	font-family:Times,serif;
+	color: darkblue;	
+}
+	
+footer
+{
+	font-size:20px;
+	text-align:right;
+}
+ul.nav 
+{
+	padding-left: 0px;
+	background-color: #3D99CE;
+	text-align: center;
+}
+ul.nav > li 
+{
+	display: inline-block;
+	padding: 10px 20px;
+}
+ul.nav > li:hover 
+{
+	background-color: #2779BF;
+}
+ul.nav > li > a 
+{
+	color: white;
+	text-decoration: none;
+}
