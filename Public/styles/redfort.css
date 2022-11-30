@@ -57,9 +57,20 @@ ul.nav > li > a
 {
 	font-size: 0.6em;
 	padding-left: 85%;
-	color: brown;
+	color: darkgreen;
+}
+.imgdes2
+{	
+	padding-left: 73%;
+	font-size: 0.6em;
+	color: darkgreen;
 }
 img
 {
 	word-wrap: normal;
+}
+a
+{
+	text-decoration: none;
+	color: crimson;
 }
