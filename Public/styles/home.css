@@ -5,6 +5,11 @@
 .main-section {
     background-color: aquamarine;
 }
+
+.container {
+    height: max-content;
+    width: max-content;
+}
 .cnav {
     background-color: rgb(171, 99, 238);
 }
@@ -12,15 +17,25 @@
 .cslideshow {
     border: 10px solid rgb(56, 3, 66);
 }
+.article-container {
+    color: yellowgreen;
+    background-color: beige;
+}
 
 .imap {
     background-color: aliceblue;
-    padding-left: 25%;
+    position: relative;
+    height: max-content;
+    width: max-content;
+    border: 10px solid rgb(74, 6, 90);
 }
 
 .video-block{
+    height: max-content;
+    width: max-content;
     border: 5px solid black;
     padding: 20px;
+    
     background-color: black;
     border-bottom: 2%;
 }
