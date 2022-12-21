@@ -72,5 +72,9 @@ img
 a
 {
 	text-decoration: none;
-	color: crimson;
+	color: blue;
+}
+a:hover
+{
+        color: red;
 }
