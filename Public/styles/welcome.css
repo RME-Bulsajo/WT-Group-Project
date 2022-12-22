@@ -1,27 +1,16 @@
-* {
-    background-color: black;
-    color : violet;
+html {
+  height: 100%;
 }
+body {
+  display: flex;
+  height: 100%;
+background: rgb(19,15,64);
+background: radial-gradient(circle, rgba(19,15,64,1) 0%, rgba(0,0,0,1) 100%);
 
-.animet-container {
-    border: 5px solid yellowgreen;
-    border-style: double;
-    display: flex ;
-    justify-content: center;
-    margin: 20%;
-    padding: 10%;
 }
-
-.animet-container #line1{
-    text-decoration: dotted;
-    color: aqua;
-    align-items: center;
-    padding: 10px;
-    
-}
-
-.animet-container #line2{
-    color: chartreuse;
-    align-items: center;
-    padding: 10%;
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }

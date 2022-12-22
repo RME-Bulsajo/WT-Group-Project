@@ -3,15 +3,23 @@
 }
 
 .main-section {
-    background-color: aquamarine;
+    background-color:  #d4f2dbff;
 }
 
 .container {
     height: max-content;
     width: max-content;
 }
+.banner {
+    overflow-y: auto;
+    width: 120vh;
+    margin: 0;
+
+
+}
 .cnav {
-    background-color: rgb(171, 99, 238);
+    background-color:#441151ff;
+    color: azure;
 }
 
 .cslideshow {
@@ -44,8 +52,13 @@
     height: 5px;
     margin: 0;
 }
-
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
 .footer {
     padding: 5%;
-    background-color: blueviolet;
+    background-color:#441151ff;
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
 }
