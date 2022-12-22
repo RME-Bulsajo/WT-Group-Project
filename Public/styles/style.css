@@ -1,3 +1,19 @@
+
+/* CSS HEX
+--russian-violet: #441151ff;
+--violet-crayola: #883677ff;
+--fuchsia-crayola: #ca61c3ff;
+--persian-pink: #ee85b5ff;
+--nyanza: #d4f2dbff; */
+
+.color {
+    color : #441151ff;
+    color : #883677ff;
+    color :  #ca61c3ff;
+    color :  #ee85b5ff;
+    color : #d4f2dbff; 
+
+}
 body {
             background-color: aquamarine;
         }
