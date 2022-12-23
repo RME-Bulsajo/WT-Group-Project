@@ -14,13 +14,22 @@
     color : #d4f2dbff; 
 
 }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
 body {
-            background-color: aquamarine;
+            background-color: #d4f2dbff;
         }
         .heading1 {
             align-items: center;
             text-align: center;
-            background-color: rgb(223, 68, 202);
         }
         .para {
             text-align: center;
@@ -28,13 +37,7 @@ body {
             color: brown;
             font-weight: bold;
         }
-        .container {
-            border:  2px solid black;
-            padding: 10px;
-            margin: 20px;
-            
 
-        }
         .ulist {
             list-style-type: disc;
             padding-left: 30%;
@@ -60,3 +63,21 @@ body {
         .imp {
             color: red;
         }
+.imageslider {
+border: solid 5px #883677ff;
+height: 50vh;
+width: 100vw;
+overflow: hidden;
+}
+
+.map {
+    width: 50%;
+    float: left;
+}
+
+.travel {
+    float:right;
+    position:relative;
+
+}
+
