@@ -5,7 +5,10 @@
 --fuchsia-crayola: #ca61c3ff;
 --persian-pink: #ee85b5ff;
 --nyanza: #d4f2dbff; */
-
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
 .color {
     color : #441151ff;
     color : #883677ff;
@@ -19,10 +22,15 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-hr {
-    color: black;
+.hr {
     margin: 0;
-    padding: 0;
+    border-top: 5px solid  whitesmoke;
+}
+.hrds {
+    height: 5px;
+    margin: 0;
+    border-top: 5px dashed white;
+
 }
 body {
             background-color: #d4f2dbff;
@@ -81,3 +89,14 @@ overflow: hidden;
 
 }
 
+.cnav{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    background-color: #441151ff;
+    color: white;
+}
+
+.description {
+    background-color: rgb(182, 248, 232);
+}
