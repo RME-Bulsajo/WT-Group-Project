@@ -73,9 +73,12 @@ body {
         }
 .imageslider {
 border: solid 5px #883677ff;
-height: 50vh;
+height: 20%;
 width: 100vw;
 overflow: hidden;
+opacity: 0.9;
+
+
 }
 
 .map {
@@ -99,4 +102,18 @@ overflow: hidden;
 
 .description {
     background-color: rgb(182, 248, 232);
+}
+
+
+.textbox {
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  background-color: antiquewhite;
+  color :black;
+  width:max-content;
+  padding: 8px;
+  text-align: center;
+  font-size: 50px;
+  opacity: 0.5;
 }
