@@ -87,9 +87,8 @@ opacity: 0.9;
 }
 
 .travel {
-    float:right;
-    position:relative;
-
+   font-size: 1.5em;
+   text-align: center;
 }
 
 .cnav{
@@ -102,6 +101,8 @@ opacity: 0.9;
 
 .description {
     background-color: rgb(182, 248, 232);
+    margin: auto;
+    text-align: center;
 }
 
 
@@ -116,4 +117,28 @@ opacity: 0.9;
   text-align: center;
   font-size: 50px;
   opacity: 0.5;
+}
+iframe
+{   
+    
+    border:0; 
+    height: 40em; 
+    width: 42em;
+    margin-top: 10px;
+}
+img
+{
+    width: 42em;    
+    height: 40em;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+img.image-right {
+    float: right;
+    margin: 0.5em 0.5em 0.5em 1em;
+}
+.timings
+{
+    text-align: right;
 }
