@@ -92,7 +92,7 @@ opacity: 0.9;
 }
 
 .cnav{
-    height: 15vh;
+    height: 15em;
     display: flex;
     justify-content: center;
     background-color: #441151ff;
@@ -141,4 +141,12 @@ img.image-right {
 .timings
 {
     text-align: right;
+}
+.pricing
+{
+    float: right;
+}
+.qfacts
+{
+    margin-right: 10px;
 }
