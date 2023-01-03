@@ -110,7 +110,8 @@ opacity: 0.9;
 .textbox {
   position: absolute;
   top: 50%;
-  right: 45%;
+  right: 40%;
+  left: 40%;
   background-color: antiquewhite;
   color :black;
   width:max-content;
