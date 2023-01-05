@@ -75,6 +75,7 @@ footer.innerHTML = `
         </ul>
        </address>
         <p>Version : <a href="https://github.com/RME-Bulsajo/WT-Group-Project">v.1.1</a></p>
+                   <iframe src="https://free.timeanddate.com/clock/i8nxvv51/n176/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="87" height="34" style="background-color : inherit;"></iframe>
 
 `
 
