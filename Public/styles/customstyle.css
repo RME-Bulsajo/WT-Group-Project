@@ -1,0 +1,36 @@
+
+
+
+
+/* Header Related */
+.offcanvas {
+    background-image: url(/Public/Resources/indiagate2.jpg);
+}
+
+
+/* Image Slider */
+
+
+/* Main Text Section */
+
+
+
+/* Footer */
+.footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    background-color: #5f2568;
+    padding: 2px;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: square;
+}
+
+.footer a{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
