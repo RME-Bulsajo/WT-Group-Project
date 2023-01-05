@@ -59,6 +59,7 @@ addEventListener('DOMContentLoaded',(Event) => {
 
 let footer = document.querySelector(".footer");
 footer.innerHTML = `
+      <p></p>
        <p>Copyright© 2022 RME-Bulsajo WT-Group Project Team . All Rights Reserved.</p>
        <address>
         <ul>
