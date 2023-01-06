@@ -23,7 +23,7 @@ addEventListener('DOMContentLoaded',(Event) => {
             <a class="nav-link active" aria-current="page" href="/Public/Pages/home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="/Public/Pages/PlanADay.html">Plan a Day</a>
+            <a class="nav-link " href="/Public/Pages/PlanADay.html">Plan a Day</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
