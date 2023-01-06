@@ -20,7 +20,7 @@ addEventListener('DOMContentLoaded',(Event) => {
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/Public/Pages/home.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="/Public/Pages/PlanADay.html">Plan a Day</a>
@@ -47,7 +47,7 @@ addEventListener('DOMContentLoaded',(Event) => {
         </ul>
         <form class="d-flex mt-3" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline bg-light" type="submit">Search</button>
         </form>
       </div>
     </div>
