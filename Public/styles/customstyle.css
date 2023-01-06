@@ -1,0 +1,81 @@
+/* Global variables */
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: dashed;
+    color: rebeccapurple;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header Related */
+.offcanvas {
+    background-image: url(/Public/Resources/indiagate2.jpg);
+}
+
+
+/* Image Slider */
+
+
+/* Main Text Section */
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+
+    border-bottom: solid black;
+}
+
+.article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Public/Resources/rp3.jpg);
+    color: rgb(1, 11, 19);
+}
+
+.background {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+/* Maps and Allied Stuff */
+.imap {
+    background-color: aliceblue;
+    height: max-content;
+    width: max-content;
+    border: 10px solid rgb(71, 6, 87);
+}
+
+
+
+/* Footer */
+.footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    background-color: #1f567c;
+    padding: 2px;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: square;
+}
+
+.footer a{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}

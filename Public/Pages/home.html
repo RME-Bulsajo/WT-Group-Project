@@ -5,66 +5,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/Public/Resources/fav.ico" type="image/x-icon">
+    <link rel="icon" href="/Public/Resources/travellingera-low-resolution-logo-color-on-transparent-background.png"
+        type="image/x-icon">
     <title>Home Page</title>
+
     <!--Bootstrap Links -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
     <!-- Custom  Links  -->
-    <link rel="stylesheet" href="/Public/styles/home.css">
-    <link rel="stylesheet" href="/Public/styles/style.css">
-    <!-- <link rel="stylesheet" href="/Public/styles/header&Footer.css"> -->
-
     <script src="/Public/scripts/headfoot.js" defer></script>
-
-
-</head>
-
+    <link rel="stylesheet" href="/Public/styles/customstyle.css">
 </head>
 
 <body>
 
-    <header class="header cnav">
+    <header class="header">
+        <h1>Placeholder Header </h1>
         <!-- Dynamically Loaded Header  -->
-        <h1>I am a Placeholder Header </h1>
     </header>
-
-
-    <hr class="hr">
+    <!-- Main Section Starts here All Content will be from here  -->
     <div class="main-section">
-        <section style="position: relative;">
-            <div class="imageslider">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="/Public/Resources/hUMAYUNtOMB.jpg" class="d-block w-100"
-                                alt="Humayun Tomb">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/Public/Resources/Delhi_Zoo-2.jpg" class="d-block w-100"
-                                alt="Image showing Chetah">
-                        </div>
+        <section class="imageslider">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/Public/Resources/indiagate2.jpg" class="d-block w-100"
+                            alt="India Gate With From the War Memorial Side">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Public/Resources/qutub_1.jpg" alt="" class="d-block w-100">
                     </div>
                 </div>
             </div>
-            <h1 class="textbox">DELHI</h1>
         </section>
+        <div class="weather">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/28d6677d23/delhi/" data-label_1="DELHI"
+                data-label_2="WEATHER" data-theme="original">DELHI WEATHER</a>
+            <script>
+                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+            </script>
+        </div>
+
+
+
+
+
+
+
+
+
         <section>
+            <article class="article container-fluid">
+            <h1 class="h1">Heart of India - Delhi</h1>
 
 
-            <div class="container-fluid article-container">
-                <article class="article">
-                    Delhi, India's capital territory, is a massive metropolitan area in the country's north. In Old
-                    Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of
-                    India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people. Nearby is
-                    Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and spice stalls. ― Google
+                    Delhi is often referred to as “Dilwalo ki Delhi” as it is a place where people’s hearts and vibrant
+                    nature are satisfied. <br>
+                    Delhi,officially the National Capital Territory (NCT) of Delhi, is a city and a union
+                    territory of India containing New Delhi, the capital of India. Straddling the Yamuna river, 
+                    primarily its western or right bank, Delhi shares borders with the state of Uttar Pradesh in the
+                    east and with the state of Haryana in the remaining directions. The NCT covers an area of 1,484
+                    square kilometres (573 sq mi). <br>
+                    Delhi is a large and sophisticated city. This city comprises of several elegant gardens away and
+                    frees from the pollutions. It is located near the river Jamuna. The people living here belong to
+                    several different cultures and religions. <br>
+                     Delhi is one of the four largest cities in India. Delhi is the national capital territory of India.
+                    Delhi state is located on the right bank of the Yamuna river. Delhi state is divided into two parts-
+                    old Delhi and New Delhi. New Delhi is prominent in the smart cities of India. There are many
+                    historical and beautiful places in New Delhi. The city is famous for its well-recognized industries.
+                    In, Delhi commonly Hindi and Urdu languages are used. Delhi State of historical places like a fort,
+                    India gate, etc. Ancient Delhi was presently closed to the Chandni Chowk and red fort.  there are
+                    several unique beautiful monuments present in Delhi. New Delhi is an incredible part of the entire
+                    state. Delhi state is a famous festival like Holi, Diwali, Ganesh Chaturthi, etc. Delhi state is
+                    very clean and clear . <br>
+                    Delhi prides itself on its mesmerizing sights, unique and diverse culture, and history. The
+                    geography, the people, the state enterprises, the modernity, and the hospitality make Delhi
+                    attractive to all visitors. Significant progress has been made in all areas. Delhi is also gaining
+                    appreciation and recognition internationally. Delhi has always been the hub of activity, art,
+                    culture, fashion, etc. It has been and will continue to be its center
+
+
 
                 </article>
-            </div>
 
-            <div class="container-fluid imap">
-                <p class="heading">Interactive Map </p>
-                
+            <!-- <div class="container imap">
+                <p class="h1">Interactive Map </p>
                 <img src="/Public/Resources/ImageMap.jpg" usemap="#delhi">
                 <map name="delhi">
 
@@ -88,39 +114,35 @@
 
                     <area shape="rect" coords="470, 350, 512, 385" href="/Public/Pages/Content/akshardham.html"
                         target="_blank">
-                </map> 
-            </div>
-
-
-            <div class="container video-block">
-                <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/JW1jSINTzaw"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/Fim1BA3HMK0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/l-5rGi8_A_4"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <!-- <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/dphagk4O5qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </map>
             </div>
 
     </div>
-    <hr class="hr">
 
-    <footer class="footer cnav" id="footer">
+
+    <div class="container-fluid video-block">
+        <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/JW1jSINTzaw"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/Fim1BA3HMK0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/l-5rGi8_A_4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <!-- <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/dphagk4O5qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- </div> -->
+
+
+
+
+
+    <footer class="footer">
         <h1>I am Placeholder Footer</h1>
-
-        <!-- Footer Will be dynamically Loaded here  -->
-        <!-- <p>Copyright© 2022 RME-Bulsajo Team . All Rights Reserved.</p>
-        <address>
-            <p>Contacts comes here </p>
-        </address>
-        <p>Version : <a href="https://github.com/RME-Bulsajo/WT-Group-Project">v.1.1</a></p>
-        <p>Last Updated On : 25/12/2022</p> -->
+        <!-- Footer will be Dynamically Loaded  -->
 
     </footer>
 
