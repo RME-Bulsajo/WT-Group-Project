@@ -102,14 +102,14 @@ ul {
   font-size: 50px;
   opacity: 0.5;
 }
-iframe
+/* iframe
 {   
     
     border:0; 
     height: 40em; 
     width: 42em;
     margin-top: 10px;
-}
+} */
 
 img.image-right {
     float: right;

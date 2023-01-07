@@ -6,7 +6,7 @@ addEventListener('DOMContentLoaded',(Event) => {
     let header = document.getElementsByClassName("header");
     document.querySelector(".header").innerHTML = `     <nav class="navbar bg-body-tertiary fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/Public/Pages/home.html">
     <img src="/Public/Resources/travellingera-low-resolution-logo-color-on-transparent-background.png" alt="TravellingEra Logo" width="50" >
     TravellingEra</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -20,7 +20,7 @@ addEventListener('DOMContentLoaded',(Event) => {
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/Public/Pages/home.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="/Public/Pages/PlanADay.html">Plan a Day</a>
