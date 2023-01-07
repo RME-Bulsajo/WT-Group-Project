@@ -1,7 +1,12 @@
 /* Global variables */
 
 body {
-    background-color: white;
+    background-color: antiquewhite;
+}
+
+.heading1 {
+    align-items: center;
+    text-align: center;
 }
 
 a {
@@ -79,3 +84,55 @@ ul {
     text-decoration: none;
     color: inherit;
 }
+.travel {
+    font-size: 1.5em;
+    text-align: center;
+ }
+
+ .textbox {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  left: 40%;
+  background-color: antiquewhite;
+  color :black;
+  width:max-content;
+  padding: 8px;
+  text-align: center;
+  font-size: 50px;
+  opacity: 0.5;
+}
+iframe
+{   
+    
+    border:0; 
+    height: 40em; 
+    width: 42em;
+    margin-top: 10px;
+}
+
+img.image-right {
+    float: right;
+    margin: 0.5em 0.5em 0.5em 1em;
+}
+.timings
+{
+    text-align: right;
+}
+.pricing
+{
+    float: right;
+}
+.qfacts
+{
+    margin-right: 10px;
+}
+
+/*img
+{
+    width: 42em;    
+    height: 40em;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+} */

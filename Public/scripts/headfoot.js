@@ -48,6 +48,7 @@ addEventListener('DOMContentLoaded',(Event) => {
         <form class="d-flex mt-3" role="search">
           <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-succes" type="submit" onclick="Search()">Search</button>
+
         </form>
         <script>
 
@@ -93,12 +94,6 @@ footer.innerHTML = `
 
 
     
-
-
-
-
-
-
 
 });
 
