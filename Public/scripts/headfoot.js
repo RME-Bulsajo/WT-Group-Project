@@ -46,8 +46,8 @@ addEventListener('DOMContentLoaded',(Event) => {
           </li>
         </ul>
         <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline bg-light" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="city">
+          <button class="btn btn-outline bg-light" type="submit" >Search</button>
         </form>
       </div>
     </div>
@@ -81,12 +81,6 @@ footer.innerHTML = `
 
 ;
     
-
-
-
-
-
-
 
 });
 
