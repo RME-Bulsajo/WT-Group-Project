@@ -4,9 +4,9 @@ addEventListener('DOMContentLoaded',(Event) => {
 
 
     let header = document.getElementsByClassName("header");
-    document.querySelector(".header").innerHTML = `    <nav class="navbar bg-body-tertiary fixed-top">
+    document.querySelector(".header").innerHTML = `     <nav class="navbar bg-body-tertiary fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/Public/Pages/home.html">
     <img src="/Public/Resources/travellingera-low-resolution-logo-color-on-transparent-background.png" alt="TravellingEra Logo" width="50" >
     TravellingEra</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -23,7 +23,7 @@ addEventListener('DOMContentLoaded',(Event) => {
             <a class="nav-link active" aria-current="page" href="/Public/Pages/home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="/Public/Pages/PlanADay.html">Plan a Day</a>
+            <a class="nav-link " href="/Public/Pages/PlanADay.html">Plan a Day</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,15 +46,26 @@ addEventListener('DOMContentLoaded',(Event) => {
           </li>
         </ul>
         <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="city">
-          <button class="btn btn-outline bg-light" type="submit" >Search</button>
+          <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-succes" type="submit" onclick="Search()">Search</button>
+
         </form>
+        <script>
+
+const searchInput = document.getElementById("searchInput");
+
+function Search() {
+    let searchValue = searchInput.value;
+    console.log(searchValue);
+
+}
+        </script>
+
+
       </div>
     </div>
   </div>
-</nav>
-
-
+</nav> 
 `
 
 let footer = document.querySelector(".footer");
@@ -80,6 +91,8 @@ footer.innerHTML = `
 `
 
 ;
+
+
     
 
 });
