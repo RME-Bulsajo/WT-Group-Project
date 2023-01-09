@@ -1,17 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page </title>
-    <link rel="stylesheet" href="../styles/welcome.css">
-</head>
-<body>
-    <div class="animet-container">
-        <div id="line1">Welcome To The Heart of India !! <br> </div>
-        <div id="line2">Desh ka Dill Delhi ❤️</div>
-    </div>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="5; url = home.html" />
+    <link
+      rel="icon"
+      href="/Public/Resources/travellingera-low-resolution-logo-color-on-transparent-background.png"
+      type="image/x-icon"
+    />
+    <title>Welcome Page</title>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        height: 100%;
+        background: rgb(19, 15, 64);
+        background: radial-gradient(
+          circle,
+          rgba(19, 15, 64, 1) 0%,
+          rgba(0, 0, 0, 1) 100%
+        );
+      }
+      .word {
+        margin: auto;
+        color: white;
+        font: 700 normal 2.5em "tahoma";
+        text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="word"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      var words = ["Welcome To The Heart of India !!", "Desh ka Dill Delhi ❤️"],
+        part,
+        i = 0,
+        offset = 0,
+        len = words.length,
+        forwards = true,
+        skip_count = 0,
+        skip_delay = 15,
+        speed = 30;
+      var wordflick = function () {
+        setInterval(function () {
+          if (forwards) {
+            if (offset >= words[i].length) {
+              ++skip_count;
+              if (skip_count == skip_delay) {
+                forwards = false;
+                skip_count = 0;
+              }
+            }
+          } else {
+            if (offset == 0) {
+              forwards = true;
+              i++;
+              offset = 0;
+              if (i >= len) {
+                i = 0;
+              }
+            }
+          }
+          part = words[i].substr(0, offset);
+          if (skip_count == 0) {
+            if (forwards) {
+              offset++;
+            } else {
+              offset--;
+            }
+          }
+          $(".word").text(part);
+        }, speed);
+      };
+
+      $(document).ready(function () {
+        wordflick();
+      });
+    </script>
+  </body>
 </html>

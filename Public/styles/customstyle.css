@@ -1,0 +1,138 @@
+/* Global variables */
+
+body {
+    background-color: antiquewhite;
+}
+
+.heading1 {
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: dashed;
+    color: rebeccapurple;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header Related */
+.offcanvas {
+    background-image: url(/Public/Resources/indiagate2.jpg);
+}
+
+
+/* Image Slider */
+
+
+/* Main Text Section */
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+
+    border-bottom: solid black;
+}
+
+.article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Public/Resources/rp3.jpg);
+    color: rgb(1, 11, 19);
+}
+
+.background {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+/* Maps and Allied Stuff */
+.imap {
+    background-color: aliceblue;
+    height: max-content;
+    width: max-content;
+    border: 10px solid rgb(71, 6, 87);
+}
+
+
+
+/* Footer */
+.footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    background-color: #1f567c;
+    padding: 2px;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: square;
+}
+
+.footer a{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+.travel {
+    font-size: 1.5em;
+    text-align: center;
+ }
+
+ .textbox {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  left: 40%;
+  background-color: antiquewhite;
+  color :black;
+  width:max-content;
+  padding: 8px;
+  text-align: center;
+  font-size: 50px;
+  opacity: 0.5;
+}
+/* iframe
+{   
+    
+    border:0; 
+    height: 40em; 
+    width: 42em;
+    margin-top: 10px;
+} */
+
+img.image-right {
+    float: right;
+    margin: 0.5em 0.5em 0.5em 1em;
+}
+.timings
+{
+    text-align: right;
+}
+.pricing
+{
+    float: right;
+}
+.qfacts
+{
+    margin-right: 10px;
+}
+
+/*img
+{
+    width: 42em;    
+    height: 40em;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+} */

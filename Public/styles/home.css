@@ -1,71 +1,57 @@
-*{
+.cnav{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    background-color: #441151ff;
+    color: white;
+}
+
+
+.banner {
+    overflow-y: auto;
+    width: 120vh;
     margin: 0;
 }
-body {
-    background-color: rgb(178, 239, 219);
+
+.cnav {
+    height: 100px;
 }
 
-.header {
-    background-color: rgb(30, 3, 53);
-    color:  whitesmoke;
-}
-.sitetitle {
-    padding-left: 40%;
-    color: chartreuse;
-   
-
+.article-container{
+    font-size: x-large;
+    font-style: italic;
+    margin: 5px;
+    background-color: rgb(24, 185, 172);
 }
 
-.nav {
-    width: 100%;
-    white-space: nowrap;
-    display: inline-block;
-    overflow: hidden;
+
+
+.imap {
+    background-color: aliceblue;
+    position: relative;
+    height: max-content;
+    width: max-content;
+    border: 10px solid rgb(74, 6, 90);
 }
 
-.ulist#navlist {
-    color: blue;
-    list-style: none;
-    display: inline-block;
+.video-block{
+    height: max-content;
+    width: max-content;
+    border: 5px solid black;
+    padding: 20px;
+    
+    background-color: black;
+    border-bottom: 2%;
+}
+
+.hr{
+    height: 5px;
+    margin: 0;
 }
 a:link{
     text-decoration: none;
-    color: rgb(178, 239, 219);
-}
-a:visited {
-    text-decoration: none;
-    color:rgb(178, 239, 219)
-}
-a:hover{
-    color: red;
+    color: inherit;
 }
 
-#sitelogo {
-    width: 8%;
-    padding-left: 45%;
 
 
-}
-.container {
-    border: 5px solid blue;
-}
-p.heading {
-    font-size: xx-large;
-    text-align: center;    
-}
-
-.vidoe-container {
-    margin: auto;
-}
-
-.image-slideshow {
-    border: 5px solid blue;
-    margin: 30px;
-    padding: 10px;
-}
-.footer {
-    background-color: darkslateblue;
-    border: 1px solid black;
-    margin-top: 10px;
-    height: 200px;
-}
