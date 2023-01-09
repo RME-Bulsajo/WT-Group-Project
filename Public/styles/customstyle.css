@@ -1,5 +1,6 @@
 /* Global variables */
 
+
 body {
     background-color: antiquewhite;
 }
@@ -58,11 +59,10 @@ ul {
 /* Maps and Allied Stuff */
 .imap {
     background-color: aliceblue;
-    height: max-content;
-    width: max-content;
     border: 10px solid rgb(71, 6, 87);
-}
 
+    
+}
 
 
 /* Footer */
@@ -102,14 +102,6 @@ ul {
   font-size: 50px;
   opacity: 0.5;
 }
-/* iframe
-{   
-    
-    border:0; 
-    height: 40em; 
-    width: 42em;
-    margin-top: 10px;
-} */
 
 img.image-right {
     float: right;
@@ -122,6 +114,7 @@ img.image-right {
 .pricing
 {
     float: right;
+    margin: 10px;
 }
 .qfacts
 {
@@ -136,3 +129,26 @@ img.image-right {
     vertical-align: middle;
     border: 0;
 } */
+.explore1
+{
+    text-align: center;
+    font-size: 1.6em;
+    color: indigo;
+    font-weight: bold;
+}
+.explore2
+{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.frame
+{
+    border:0; 
+    height: 38em; 
+    width: 42em;
+    margin-top: 10px;
+}
+.explore3
+{
+    margin-right: 12px;
+}
