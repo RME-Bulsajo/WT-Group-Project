@@ -103,6 +103,16 @@ ul {
   opacity: 0.5;
 }
 
+.frame {
+  
+    
+    border:0; 
+    height: 40em; 
+    width: 42em;
+    margin-top: 10px;
+}
+
+
 img.image-right {
     float: right;
     margin: 0.5em 0.5em 0.5em 1em;
