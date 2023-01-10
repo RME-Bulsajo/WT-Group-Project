@@ -100,7 +100,7 @@ function Search() {
 let footer = document.querySelector(".footer");
 footer.innerHTML = `
       <p></p>
-       <p>Copyright© 2022 RME-Bulsajo WT-Group Project Team . All Rights Reserved.</p>
+       <p>Copyright© 2022-2023 RME-Bulsajo WT-Group Project Team . All Rights Reserved.</p>
        <address>
         <ul>
           RME-Bulsajo WT-Group Project Team
@@ -109,7 +109,7 @@ footer.innerHTML = `
           </li>
           <li>Shivang Tiwari </li>
           <li>Pushpam Jha   </li>
-          <li>Ujjawal Jain</li>
+          <li>Ujjwal Jain</li>
           <li>Ishika Thakur</li>
           
         </ul>
