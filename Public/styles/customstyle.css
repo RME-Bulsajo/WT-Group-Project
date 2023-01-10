@@ -103,6 +103,7 @@ ul {
   opacity: 0.5;
 }
 
+
 .frame {
   
     
@@ -114,6 +115,7 @@ ul {
 
 
 img.image-right {
+
     float: right;
     margin: 0.5em 0.5em 0.5em 1em;
 }
@@ -143,13 +145,16 @@ img.image-right {
 {
     text-align: center;
     font-size: 1.6em;
-    color: indigo;
+    color: #2B4162;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 .explore2
 {
     font-size: 1.5em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color: #D83633;
 }
 .frame
 {
@@ -160,5 +165,22 @@ img.image-right {
 }
 .explore3
 {
-    margin-right: 12px;
+    margin-right: 15px;
+}
+.explore4
+{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    border-bottom: solid black;
+}
+.list1
+{
+    font-size: 1.4em;
+}
+
+.hr {
+    margin: 0;
+    border-top: 5px solid red;
 }
