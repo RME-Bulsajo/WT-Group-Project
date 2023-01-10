@@ -1,10 +1,9 @@
-/*This Javascript is resionsible for dynamically loading the Header and Footer in all the html pages*/ 
+/*This Javascript is responsible for dynamically loading the Header and Footer in all the html pages*/ 
 
 addEventListener('DOMContentLoaded',(Event) => {
-
-
     let header = document.getElementsByClassName("header");
-    document.querySelector(".header").innerHTML = `     <nav class="navbar bg-body-tertiary fixed-top">
+    document.querySelector(".header").innerHTML = `
+    <nav class="navbar bg-body-tertiary fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/Public/Pages/home.html">
     <img src="/Public/Resources/travellingera-low-resolution-logo-color-on-transparent-background.png" alt="TravellingEra Logo" width="50" >
