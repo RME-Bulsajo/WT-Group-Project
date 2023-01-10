@@ -33,7 +33,7 @@ addEventListener('DOMContentLoaded',(Event) => {
               <li><a class="dropdown-item" href="/Public/Pages/Content/redfort.html">Red Fort</a></li>
                 <li><a class="dropdown-item" href="/Public/Pages/Content/indiagate.html">India Gate</a></li>
                   <li><a class="dropdown-item" href="/Public/Pages/Content/jamamasjid.html">Jama Masjid</a></li>
-                    <li><a class="dropdown-item" href="/Public/Pages/Content/connaughtplace.html">Connaught Place</a></li>
+                    <li><a class="dropdown-item" href="/Public/Pages/Content/qutubminar.html">Qutub Minar</a></li>
               <li>
               </li>
               <hr class="dropdown-divider">
