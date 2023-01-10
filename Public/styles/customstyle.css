@@ -75,7 +75,7 @@ ul {
 }
 
 .footer ul{
-    list-style: square;
+    list-style: none;
 }
 
 .footer a{
